@@ -27,6 +27,7 @@ $(function() {
     // 注册功能
     var layer = layui.layer;
     $('#form_reg').on('submit', function(e) {
+        alert(1);
         e.preventDefault();
         // 发送ajax
         $.ajax({
